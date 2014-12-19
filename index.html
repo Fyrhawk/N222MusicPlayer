@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <div id="container">
+        <div id="header">MUSIC PLAYLIST</div>
+        <div id="left_content">
+
+            <div id="playing_page">
+                <h2>Now Playing</h2>
+                <input type="button" id="soundBtn" value="Play"/>
+                <input type="button" id="changeSound" value="Change that sound"/>
+
+                <input type="range" id="musicProgress" min="0.0" max="100.00" value="0"/>
+
+                <div id="soundStatus">
+                    Not Playing
+                </div>
+                <audio id="myAudio">
+                    <source src="music/boop.wav" type="audio/wav">
+                </audio>
+            </div>
+
+            <div id="search_page">
+                <div>Title: <input id="txtSearch"/></div>
+                <div><input id="btnSearch" type="button" value="search"/></div>
+            </div>
+
+            <div id="info_page">
+                <div id="info_header"></div>
+                <div id="playing_info">
+                </div>
+
+                <div id="artist_info">
+                </div>
+            </div>
+
+        </div>
+
+        <div id="right_content">
+
+            <div id="r_content_header">
+                <ul>
+                    <li>Artists</li>
+                    <li>Albums</li>
+                    <li>Genres</li>
+                    <li>Results</li>
+                </ul>
+            </div>
+
+            <div id="artist_page"></div>
+
+            <div id="album_page"></div>
+
+            <div id="genre_page"></div>
+
+            <div id="results_page"></div>
+        </div>
+
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/handlebars/handlebars.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
