@@ -13,15 +13,11 @@
             <div id="playing_page">
                 <h2>Now Playing</h2>
                 <input type="button" id="soundBtn" value="Play"/>
-                <input type="button" id="changeSound" value="Change that sound"/>
+                <input type="button" id="changeSound" value="Pause"/>
 
                 <input type="range" id="musicProgress" min="0.0" max="100.00" value="0"/>
 
-                <div id="soundStatus">
-                    Not Playing
-                </div>
                 <audio id="myAudio">
-                    <source src="music/boop.wav" type="audio/wav">
                 </audio>
             </div>
 
@@ -45,20 +41,15 @@
 
             <div id="r_content_header">
                 <ul>
-                    <li>Artists</li>
-                    <li>Albums</li>
-                    <li>Genres</li>
-                    <li>Results</li>
+                    <li id="artistTab">Artists</li>
+                    <li id="albumTab">Albums</li>
+                    <li id="genreTab">Genres</li>
+                    <li id="resultsTab">Results</li>
                 </ul>
             </div>
 
-            <div id="artist_page"></div>
-
-            <div id="album_page"></div>
-
-            <div id="genre_page"></div>
-
-            <div id="results_page"></div>
+            <div id="artist_page">
+            </div>
         </div>
 
     </div>

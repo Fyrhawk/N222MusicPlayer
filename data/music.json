@@ -1,0 +1,88 @@
+{
+    "albums": [
+        {
+            "title": "Metallica",
+            "artist": "Metallica",
+            "tracks": [
+                "Enter Sandman",
+                "Sad But True",
+                "Holier Than Thou",
+                "The Unforgiven",
+                "Wherever I May Roam",
+                "Don't Tread On Me",
+                "Through The Never",
+                "Nothing Else Matters",
+                "Of Wolf And Man",
+                "The God That Failed",
+                "My Friend Of Misery",
+                "The Struggle Within"
+            ]
+        },
+        {
+            "title": "Load",
+            "artist": "Metallica",
+            "tracks": [
+                "Ain't My B*tch",
+                "2 X 4",
+                "The House That Jack Built",
+                "Until It Sleeps",
+                "King Nothing",
+                "Hero Of The Day",
+                "Bleeding Me",
+                "Cure",
+                "Poor Twisted Me",
+                "Wasting My Hate",
+                "Mama Said",
+                "Thorn Within",
+                "Ronnie",
+                "The Outlaw Torn"
+            ]
+        },
+        {
+            "title": "1000hp",
+            "artist": "Godsmack",
+            "tracks": [
+                "1000hp",
+                "FML",
+                "Something Different",
+                "What's Next?",
+                "Generation Day",
+                "Locked & Loaded",
+                "Living In The Gray",
+                "I Don't Belong",
+                "Nothing Comes Easy",
+                "Turning To Stone"
+            ]
+        },
+        {
+            "title": "Hats Off To The Bull",
+            "artist": "Chevelle",
+            "tracks": [
+                "Face To The Floor",
+                "Same Old Trip",
+                "Ruse",
+                "The Meddler",
+                "Pinata",
+                "Envy",
+                "Hats Off To The Bull",
+                "Arise",
+                "Revenge",
+                "Prima Donna",
+                "Clones"
+            ]
+        },
+        {
+            "title": "Asylum",
+            "artist": "Disturbed",
+            "tracks": [
+                "Remnants",
+                "Asylum",
+                "The Infection",
+                "Warrior",
+                "Another Way To Die",
+                "Never Again",
+                "The Animal"
+            ]
+        }
+    ]
+}
